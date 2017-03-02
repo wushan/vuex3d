@@ -5,7 +5,7 @@ import App from './App'
 import router from './router'
 
 Vue.config.productionTip = false
-Vue.config.ignoredElements = ['X3D', 'Background', 'Scene', 'NavigationInfo', 'Transform', 'Group', 'Shape', 'Appearance', 'Material', 'IndexedFaceSet', 'Coordinate', 'PointLight', 'Viewpoint']
+Vue.config.ignoredElements = ['X3D', 'Background', 'Scene', 'NavigationInfo', 'Transform', 'Group', 'Shape', 'Appearance', 'Material', 'IndexedFaceSet', 'Coordinate', 'PointLight', 'Viewpoint', 'Collision', 'Cylinder', 'Cone', 'Billboard']
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
